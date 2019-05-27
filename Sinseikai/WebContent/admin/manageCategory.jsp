@@ -20,11 +20,10 @@ Prevent the action that select all category if entered to modify mode.
 		<button id="backButton">돌아가기</button>
 		<form action="manage-category-insert.ad" method="post"
 			onsubmit="return checkValues()">
-			MajorName <input type="text" name="majorName" oninput="validate()" />
-			MinorName <input type="text" name="minorName" oninput="validate()" />
-			CategoryName <input type="text" name="categoryName"
-				oninput="validate()" /> CategoryCode <input type="text"
-				name="categoryCode" oninput="validate()" /> <input type="submit"
+			MajorName <input type="text" name="majorName" oninput="validate()" placeholder="문자로 입력" />
+			MinorName <input type="text" name="minorName" oninput="validate()" placeholder="문자로 입력" />
+			CategoryName <input type="text" name="categoryName" oninput="validate()" placeholder="문자로 입력"/> 
+			CategoryCode <input type="text" name="categoryCode" oninput="validate()" placeholder="숫자로 입력" /> <input type="submit"
 				value="" class="btn_submit" alt="등록" />
 
 			<!-- Used for modify the category. -->

@@ -118,6 +118,10 @@ div categoryTop input {
 
 }
 
+#noticeCategory {
+	color: red;
+}
+
 #noticeCode {
 	color: red;
 }
